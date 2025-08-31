@@ -1,7 +1,3 @@
-# Let's create a clean full bot.py, requirements.txt, and allowed_users.json
-# We'll write simplified but feature-complete code with all required features in one go.
-
-bot_code = r"""
 import os
 import io
 import re
@@ -292,20 +288,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-"""
-
-requirements_txt = "python-telegram-bot==20.3\n"
-allowed_users = "[]\n"
-
-# Save files
-with open("/mnt/data/bot.py", "w") as f:
-    f.write(bot_code)
-
-with open("/mnt/data/requirements.txt", "w") as f:
-    f.write(requirements_txt)
-
-with open("/mnt/data/allowed_users.json", "w") as f:
-    f.write(allowed_users)
-
-"/mnt/data/bot.py, requirements.txt, allowed_users.json created successfully."
-
+    
